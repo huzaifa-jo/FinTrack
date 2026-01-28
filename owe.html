@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FinTrack - Income</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">DashBoard</a>
+    <a href="income.html">Income</a>
+    <a href="expense.html">Expenses</a>
+    <a href="owe.html">Debt Manager</a>
+    
+    
+</nav>
+
+<div class="container">
+  <h2>Debt Manager</h2>
+
+  <input id="debt-name" placeholder="Name">
+  <input id="debt-amount" type="number" placeholder="Amount">
+  <input id="debt-reason" placeholder="Reason">
+
+  <select id="debt-type">
+    <option value="owedToMe">They Owe Me</option>
+    <option value="iOwe">I Owe Them</option>
+  </select>
+  <button onclick="addDebt()">Add Debt</button>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Amount</th>
+        <th>Reason</th>
+        <th>Type</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody id="debt-list"></tbody>
+  </table>
+</div>
+
+<script src="app.js"></script>
+<script src="owe.js"></script>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

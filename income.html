@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FinTrack - Income</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">DashBoard</a>
+    <a href="income.html">Income</a>
+    <a href="expense.html">Expenses</a>
+    <a href="owe.html">Debt Manager</a>
+
+    
+</nav>
+<div class="container">
+    <h2>Add Income</h2>
+    <input id="income-amount" placeholder="Amount">
+    <input id="income-note" placeholder="Note">
+    <button onclick="addIncome()">Add</button>
+
+    <table>
+  <thead>
+    <tr>
+      <th>Amount</th>
+      <th>Note</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody id="income-list"></tbody>
+</table>
+</div>
+
+<script src="app.js"></script>
+<script src="income.js"></script>
+</body>
+</html>
+

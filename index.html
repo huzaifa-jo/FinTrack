@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FinTrack - DashBoard</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">DashBoard</a>
+            <a href="income.html">Income</a>
+            <a href="expense.html">Expenses</a>
+            <a href="owe.html">Debt Manager</a>
+            
+            
+
+        </nav>
+
+        <div class="container">
+            <h1>DashBoard</h1>
+            <div class="card blue" id="total-income"></div>
+            <div class="card red" id="total-expense"></div>
+            <div class="card green" id="saved-cash"></div>
+            <div class="card orange" id="total-owed"></div>
+
+            <h2>Recent Transactions</h2>
+                <table>
+                    <thead>
+                        <tr>
+                        <th>Type</th>
+                        <th>Amount</th>
+                        <th>Note</th>
+                        <th>Date</th>
+                        <th>Delete</th>
+                        </tr>
+                    </thead>
+                <tbody id="recent-transactions"></tbody>
+                </table>
+
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>

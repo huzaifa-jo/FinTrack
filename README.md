@@ -16,3 +16,6 @@ A personal finance tracker built using HTML, CSS, and JavaScript.
 
 ## Author
 Huzaifa Jamil Osman
+
+## FOR TESTING
+CLICK HERE: https://huzaifa-jo.github.io/FinTrack/
